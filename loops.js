@@ -24,6 +24,7 @@ function whileLoop(countdown) {
 function doWhileLoop(array) {
   do {
     [loopBody];
-  } while (maybeTrue());
+  } while (array.length === 0, || maybeTrue()) {
+    }
   return array 
 }
